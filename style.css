@@ -26,7 +26,7 @@ body {
     align-content: center;
     flex-wrap: wrap;
     padding: 10px;
-    background: linear-gradient(45deg, #554369, #829bc5, rgb(130, 184, 130) 100%);
+    background: linear-gradient(45deg, #554369, #829bc5, rgb(130, 184, 130));
     top: 0;
  
       
@@ -247,6 +247,7 @@ button {
 
   
 
+  
 input, textarea{
     width: 100%;
    padding: 10px;
@@ -270,8 +271,25 @@ button:hover {
 
 
 
+  .container-greet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 90vh;
+    animation-name: rotate;
+    animation-duration: 2s;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+
+}
 
 
+
+@keyframes rotate{
+    100%{transform:rotateX(360deg)}
+}
 
  
 
